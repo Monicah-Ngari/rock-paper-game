@@ -15,14 +15,15 @@ function computerMove() {
 
 
 function clicksRock() {
-alert('You clicked Rock!');
+  const computer = computerMove(); 
+
 }
 
 function clicksPaper() {
-alert('You clicked Paper!');
+  const computer = computerMove(); 
 
 }
 function clicksScissors() {
-alert('You clicked Scissors!');
+  const computer = computerMove(); 
 
 }
