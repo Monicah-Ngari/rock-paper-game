@@ -22,9 +22,9 @@ function clicksRock() {
   if (computer === 'Rock') {
     alert('It\'s a tie!');
   } else if (computer === 'Paper') {
-    alert('You lose! Computer wins!');}
+    alert('You lose 😞! Computer wins!');}
   else if (computer === 'Scissors') {
-    alert('You win!');}
+    alert('You win 😊!');}
 
 
 }
@@ -33,18 +33,18 @@ function clicksPaper() {
   const computer = computerMove(); 
   if 
   (computer === 'Rock') {
-    alert('You win!');}
+    alert('You win 😊!');}
   else if (computer === 'Paper') {
     alert('It\'s a tie!');}
   else if (computer === 'Scissors') {
-    alert('You lose! Computer wins!');}
+    alert('You lose 😞! Computer wins!');}
 }
 function clicksScissors() {
   const computer = computerMove(); 
   if (computer === 'Rock') {
-    alert('You lose! Computer wins!');}
+    alert('You lose 😞! Computer wins!');}
   else if (computer === 'Paper') {
-    alert('You win!');}
+    alert('You win 😊!');}
   else if (computer === 'Scissors') {
     alert('It\'s a tie!');} 
 
