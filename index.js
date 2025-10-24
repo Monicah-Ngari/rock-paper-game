@@ -1,13 +1,13 @@
 function computerMove() {
   let computerChoice = Math.random();
-  if (computerChoice <= 0 && computerChoice <1/3){
+  if (computerChoice >=0 && computerChoice <1/3){
     alert('The computer chose Rock!');
   }
   else if (
       computerChoice >= 1/3 && computerChoice <2/3){
         alert('The computer chose Paper!');
   }
-  else (computerChoice <=2/3 && <1){
+  else if (computerChoice <= 2/3 && computerChoice <1){
           alert('The computer chose Scissors!');
         }
 }
