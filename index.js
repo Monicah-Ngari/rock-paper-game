@@ -49,3 +49,6 @@ function clicksScissors() {
     alert('It\'s a tie!');} 
 
 }
+
+let userScore = 0;
+let computerScore = 0;
